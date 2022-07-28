@@ -17,6 +17,11 @@
 		17BEDE0D28559A75001AF6BC /* Walkie_Talkie_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDE0C28559A75001AF6BC /* Walkie_Talkie_POCTests.swift */; };
 		17BEDE1728559A75001AF6BC /* Walkie_Talkie_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDE1628559A75001AF6BC /* Walkie_Talkie_POCUITests.swift */; };
 		17BEDE1928559A75001AF6BC /* Walkie_Talkie_POCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDE1828559A75001AF6BC /* Walkie_Talkie_POCUITestsLaunchTests.swift */; };
+		17BEDE2828559A9D001AF6BC /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BEDE2728559A9D001AF6BC /* LoginView.xib */; };
+		17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDE2928559AAD001AF6BC /* LoginView.swift */; };
+		17CBCD6B288A3ACB00410648 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6A288A3ACB00410648 /* Login.swift */; };
+		17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6D288A46F900410648 /* TextfieldExtension.swift */; };
+		17CBCD70288A4B6E00410648 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6F288A4B6E00410648 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		17BEDE1228559A75001AF6BC /* Walkie-Talkie POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walkie-Talkie POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BEDE1628559A75001AF6BC /* Walkie_Talkie_POCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkie_Talkie_POCUITests.swift; sourceTree = "<group>"; };
 		17BEDE1828559A75001AF6BC /* Walkie_Talkie_POCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkie_Talkie_POCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17BEDE2728559A9D001AF6BC /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		17BEDE2928559AAD001AF6BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		17CBCD6A288A3ACB00410648 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		17CBCD6D288A46F900410648 /* TextfieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExtension.swift; sourceTree = "<group>"; };
+		17CBCD6F288A4B6E00410648 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,9 @@
 		17BEDDF128559A71001AF6BC /* Walkie-Talkie POC */ = {
 			isa = PBXGroup;
 			children = (
+				17CBCD6C288A46D000410648 /* Utils */,
+				17CBCD69288A3AB700410648 /* Controller */,
+				17BEDE2528559A7C001AF6BC /* View */,
 				17BEDDF228559A71001AF6BC /* AppDelegate.swift */,
 				17BEDDF428559A71001AF6BC /* SceneDelegate.swift */,
 				17BEDDF628559A71001AF6BC /* ViewController.swift */,
@@ -128,6 +141,40 @@
 				17BEDE1828559A75001AF6BC /* Walkie_Talkie_POCUITestsLaunchTests.swift */,
 			);
 			path = "Walkie-Talkie POCUITests";
+			sourceTree = "<group>";
+		};
+		17BEDE2528559A7C001AF6BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17BEDE2628559A89001AF6BC /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17BEDE2628559A89001AF6BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				17BEDE2728559A9D001AF6BC /* LoginView.xib */,
+				17BEDE2928559AAD001AF6BC /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		17CBCD69288A3AB700410648 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17CBCD6A288A3ACB00410648 /* Login.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17CBCD6C288A46D000410648 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				17CBCD6D288A46F900410648 /* TextfieldExtension.swift */,
+				17CBCD6F288A4B6E00410648 /* Constant.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +283,7 @@
 			files = (
 				17BEDE0228559A75001AF6BC /* LaunchScreen.storyboard in Resources */,
 				17BEDDFF28559A75001AF6BC /* Assets.xcassets in Resources */,
+				17BEDE2828559A9D001AF6BC /* LoginView.xib in Resources */,
 				17BEDDFA28559A71001AF6BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +312,11 @@
 				17BEDDF728559A71001AF6BC /* ViewController.swift in Sources */,
 				17BEDDFD28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld in Sources */,
 				17BEDDF328559A71001AF6BC /* AppDelegate.swift in Sources */,
+				17CBCD70288A4B6E00410648 /* Constant.swift in Sources */,
+				17CBCD6B288A3ACB00410648 /* Login.swift in Sources */,
+				17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */,
 				17BEDDF528559A71001AF6BC /* SceneDelegate.swift in Sources */,
+				17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +498,7 @@
 				INFOPLIST_FILE = "Walkie-Talkie POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +526,7 @@
 				INFOPLIST_FILE = "Walkie-Talkie POC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -9,20 +9,46 @@ import Foundation
 import UIKit
 
 class Login: UIViewController {
-    
-    let loginContentView = UINib(nibName: "LoginView", bundle: nil).instantiate(withOwner: Login.self, options: nil)[0] as! LoginView
+    // MARK: - Properties
+    let loginContentView = UINib(nibName: "LoginView", bundle: nil)
+        .instantiate(withOwner: Login.self, options: nil)[0] as! LoginView
+    let listRoomController = ListRoom()
 
+    // MARK: - Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        loginContentView.frame = CGRect(x: 0, y: 0,
-                                        width: UIScreen.main.bounds.width,
-                                        height: UIScreen.main.bounds.height)
-        self.view.addSubview(loginContentView)
-        
+        setUpView()
+        setUpForController()
     }
     
+    // MARK: - Setup View
+    private func setUpView() {
+        loginContentView.frame = CGRect(x: 0, y: 0,
+                                        width: Bound.screenWidth,
+                                        height: Bound.screenHeight)
+        self.view.addSubview(loginContentView)
+    }
     
+    // MARK: - Setup for controller
+    private func setUpForController() {
+        self.navigationController?.navigationBar.isHidden = true
+        self.hdingKeyboardWhenTappedOut()
+        loginContentView.delegate = self
+    }
+}
+
+// MARK: - Delegate from Login
+extension Login: LoginViewDelegate {
+    // move to forgotPassword view
+    func forgotPassword() {
+        //
+    }
+    
+    // login Action
+    func login(username: String, password: String) {
+        print("Login")
+        self.navigationController?.pushViewController(listRoomController, animated: true)
+    }
     
     
 }

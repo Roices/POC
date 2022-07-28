@@ -18,12 +18,12 @@ enum Direction {
 
 // add image to textfield
     func withImage(direction: Direction, image: UIImage?){
-        let mainView = UIView(frame: CGRect(x: 0, y: 0, width: 49, height: 45))
+        let mainView = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         mainView.layer.cornerRadius = 5
         mainView.backgroundColor = .red
 
 
-        let view = UIView(frame: CGRect(x: 0, y: 0, width: 49, height: 45))
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         view.backgroundColor = .white
         view.clipsToBounds = true
         view.layer.cornerRadius = 5
@@ -44,7 +44,7 @@ enum Direction {
             imageView.image = image
             self.leftViewMode = .always
             self.leftView = mainView
-            setWhenTfIsEmpty()
+            //setWhenTfIsEmpty()
         } else if(Direction.Right == direction){ // image right
             seperatorView.frame = CGRect(x: 0, y: 0, width: 5, height: 35)
             imageView.image = image

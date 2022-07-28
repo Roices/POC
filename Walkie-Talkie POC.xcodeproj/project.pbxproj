@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17BEDDF328559A71001AF6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDDF228559A71001AF6BC /* AppDelegate.swift */; };
 		17BEDDF528559A71001AF6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDDF428559A71001AF6BC /* SceneDelegate.swift */; };
-		17BEDDF728559A71001AF6BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDDF628559A71001AF6BC /* ViewController.swift */; };
 		17BEDDFA28559A71001AF6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BEDDF828559A71001AF6BC /* Main.storyboard */; };
 		17BEDDFD28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDDFB28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld */; };
 		17BEDDFF28559A75001AF6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BEDDFE28559A75001AF6BC /* Assets.xcassets */; };
@@ -22,6 +21,16 @@
 		17CBCD6B288A3ACB00410648 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6A288A3ACB00410648 /* Login.swift */; };
 		17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6D288A46F900410648 /* TextfieldExtension.swift */; };
 		17CBCD70288A4B6E00410648 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6F288A4B6E00410648 /* Constant.swift */; };
+		77C4ADFD28921F83004AC8BF /* VCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ADFC28921F83004AC8BF /* VCExtensions.swift */; };
+		77C4AE0028924129004AC8BF /* ListRoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C4ADFF28924129004AC8BF /* ListRoomView.xib */; };
+		77C4AE022892413B004AC8BF /* ListRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE012892413B004AC8BF /* ListRoomView.swift */; };
+		77C4AE042892427C004AC8BF /* ListRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE032892427C004AC8BF /* ListRoom.swift */; };
+		77C4AE0628924981004AC8BF /* NavCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE0528924981004AC8BF /* NavCustomButton.swift */; };
+		77C4AE0828924ED9004AC8BF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE0728924ED9004AC8BF /* Color.swift */; };
+		77D453A62892674B0046EA68 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D453A52892674B0046EA68 /* UIColorExtensions.swift */; };
+		77D453B32892959B0046EA68 /* SideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D453B22892959B0046EA68 /* SideMenu.xib */; };
+		77D453B5289295A70046EA68 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D453B4289295A70046EA68 /* SideMenu.swift */; };
+		77D453B7289297630046EA68 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D453B6289297630046EA68 /* SideMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +54,6 @@
 		17BEDDEF28559A71001AF6BC /* Walkie-Talkie POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walkie-Talkie POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BEDDF228559A71001AF6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17BEDDF428559A71001AF6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17BEDDF628559A71001AF6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17BEDDF928559A71001AF6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BEDDFC28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Walkie_Talkie_POC.xcdatamodel; sourceTree = "<group>"; };
 		17BEDDFE28559A75001AF6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +69,16 @@
 		17CBCD6A288A3ACB00410648 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		17CBCD6D288A46F900410648 /* TextfieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExtension.swift; sourceTree = "<group>"; };
 		17CBCD6F288A4B6E00410648 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		77C4ADFC28921F83004AC8BF /* VCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtensions.swift; sourceTree = "<group>"; };
+		77C4ADFF28924129004AC8BF /* ListRoomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRoomView.xib; sourceTree = "<group>"; };
+		77C4AE012892413B004AC8BF /* ListRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomView.swift; sourceTree = "<group>"; };
+		77C4AE032892427C004AC8BF /* ListRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoom.swift; sourceTree = "<group>"; };
+		77C4AE0528924981004AC8BF /* NavCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavCustomButton.swift; sourceTree = "<group>"; };
+		77C4AE0728924ED9004AC8BF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		77D453A52892674B0046EA68 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		77D453B22892959B0046EA68 /* SideMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenu.xib; sourceTree = "<group>"; };
+		77D453B4289295A70046EA68 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		77D453B6289297630046EA68 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,17 +129,12 @@
 		17BEDDF128559A71001AF6BC /* Walkie-Talkie POC */ = {
 			isa = PBXGroup;
 			children = (
-				17CBCD6C288A46D000410648 /* Utils */,
-				17CBCD69288A3AB700410648 /* Controller */,
-				17BEDE2528559A7C001AF6BC /* View */,
-				17BEDDF228559A71001AF6BC /* AppDelegate.swift */,
-				17BEDDF428559A71001AF6BC /* SceneDelegate.swift */,
-				17BEDDF628559A71001AF6BC /* ViewController.swift */,
-				17BEDDF828559A71001AF6BC /* Main.storyboard */,
-				17BEDDFE28559A75001AF6BC /* Assets.xcassets */,
-				17BEDE0028559A75001AF6BC /* LaunchScreen.storyboard */,
 				17BEDE0328559A75001AF6BC /* Info.plist */,
-				17BEDDFB28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld */,
+				77F87BF428921D05001F22C9 /* Resources */,
+				77F87BF128921CA0001F22C9 /* Common */,
+				17CBCD6C288A46D000410648 /* Utils */,
+				17BEDE2528559A7C001AF6BC /* View */,
+				17CBCD69288A3AB700410648 /* Controller */,
 			);
 			path = "Walkie-Talkie POC";
 			sourceTree = "<group>";
@@ -146,7 +159,11 @@
 		17BEDE2528559A7C001AF6BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17BEDDF828559A71001AF6BC /* Main.storyboard */,
+				17BEDE0028559A75001AF6BC /* LaunchScreen.storyboard */,
+				77D453AB289294950046EA68 /* SideMenu */,
 				17BEDE2628559A89001AF6BC /* Login */,
+				77C4ADFE28923FCF004AC8BF /* ListRoom */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				17CBCD6A288A3ACB00410648 /* Login.swift */,
+				77C4AE032892427C004AC8BF /* ListRoom.swift */,
+				77D453B6289297630046EA68 /* SideMenuController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,10 +190,66 @@
 		17CBCD6C288A46D000410648 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				17CBCD6D288A46F900410648 /* TextfieldExtension.swift */,
-				17CBCD6F288A4B6E00410648 /* Constant.swift */,
+				77C4AE0528924981004AC8BF /* NavCustomButton.swift */,
+				77C4AE0728924ED9004AC8BF /* Color.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		77C4ADFE28923FCF004AC8BF /* ListRoom */ = {
+			isa = PBXGroup;
+			children = (
+				77C4ADFF28924129004AC8BF /* ListRoomView.xib */,
+				77C4AE012892413B004AC8BF /* ListRoomView.swift */,
+			);
+			path = ListRoom;
+			sourceTree = "<group>";
+		};
+		77D453AB289294950046EA68 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				77D453B22892959B0046EA68 /* SideMenu.xib */,
+				77D453B4289295A70046EA68 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		77F87BF128921CA0001F22C9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				17BEDDF228559A71001AF6BC /* AppDelegate.swift */,
+				17BEDDF428559A71001AF6BC /* SceneDelegate.swift */,
+				77F87BF328921CBA001F22C9 /* Constants */,
+				77F87BF228921CAA001F22C9 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		77F87BF228921CAA001F22C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17CBCD6D288A46F900410648 /* TextfieldExtension.swift */,
+				77C4ADFC28921F83004AC8BF /* VCExtensions.swift */,
+				77D453A52892674B0046EA68 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77F87BF328921CBA001F22C9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				17CBCD6F288A4B6E00410648 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		77F87BF428921D05001F22C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17BEDDFB28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld */,
+				17BEDDFE28559A75001AF6BC /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +359,9 @@
 				17BEDE0228559A75001AF6BC /* LaunchScreen.storyboard in Resources */,
 				17BEDDFF28559A75001AF6BC /* Assets.xcassets in Resources */,
 				17BEDE2828559A9D001AF6BC /* LoginView.xib in Resources */,
+				77D453B32892959B0046EA68 /* SideMenu.xib in Resources */,
 				17BEDDFA28559A71001AF6BC /* Main.storyboard in Resources */,
+				77C4AE0028924129004AC8BF /* ListRoomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,13 +386,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17BEDDF728559A71001AF6BC /* ViewController.swift in Sources */,
+				77C4AE022892413B004AC8BF /* ListRoomView.swift in Sources */,
 				17BEDDFD28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld in Sources */,
+				77D453A62892674B0046EA68 /* UIColorExtensions.swift in Sources */,
+				77D453B5289295A70046EA68 /* SideMenu.swift in Sources */,
 				17BEDDF328559A71001AF6BC /* AppDelegate.swift in Sources */,
 				17CBCD70288A4B6E00410648 /* Constant.swift in Sources */,
+				77C4AE042892427C004AC8BF /* ListRoom.swift in Sources */,
+				77C4AE0828924ED9004AC8BF /* Color.swift in Sources */,
 				17CBCD6B288A3ACB00410648 /* Login.swift in Sources */,
 				17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */,
 				17BEDDF528559A71001AF6BC /* SceneDelegate.swift in Sources */,
+				77C4ADFD28921F83004AC8BF /* VCExtensions.swift in Sources */,
+				77D453B7289297630046EA68 /* SideMenuController.swift in Sources */,
+				77C4AE0628924981004AC8BF /* NavCustomButton.swift in Sources */,
 				17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

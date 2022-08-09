@@ -12,7 +12,12 @@ class Login: UIViewController {
     // MARK: - Properties
     let loginContentView = UINib(nibName: "LoginView", bundle: nil)
         .instantiate(withOwner: Login.self, options: nil)[0] as! LoginView
-    let listRoomController = ListRoom()
+    
+    private let homeVC = UIStoryboard(name: NameConstant.Storyboard.Main,
+                                         bundle: nil).instantiateVC(ContainerVC.self)
+    
+    private let listRoom = UIStoryboard(name: NameConstant.Storyboard.Main,
+                                         bundle: nil).instantiateVC(SideMenuController.self)
 
     // MARK: - Life Cycles
     override func viewDidLoad() {
@@ -26,6 +31,7 @@ class Login: UIViewController {
         loginContentView.frame = CGRect(x: 0, y: 0,
                                         width: Bound.screenWidth,
                                         height: Bound.screenHeight)
+        self.navigationController?.isNavigationBarHidden = true
         self.view.addSubview(loginContentView)
     }
     
@@ -35,6 +41,8 @@ class Login: UIViewController {
         self.hdingKeyboardWhenTappedOut()
         loginContentView.delegate = self
     }
+    
+    
 }
 
 // MARK: - Delegate from Login
@@ -47,7 +55,7 @@ extension Login: LoginViewDelegate {
     // login Action
     func login(username: String, password: String) {
         print("Login")
-        self.navigationController?.pushViewController(listRoomController, animated: true)
+        self.navigationController?.pushViewController(homeVC, animated: true)
     }
     
     

@@ -1,8 +1,8 @@
 //
-//  Constant.swift
+//  Image.swift
 //  Walkie-Talkie POC
 //
-//  Created by Tuan on 22/07/2022.
+//  Created by Macmini2018 on 09/08/2022.
 //
 
 import Foundation
@@ -14,9 +14,4 @@ enum Image {
     static let calendar = UIImage(systemName: "calendar")!
     static let people = UIImage(systemName: "person.2.fill")!
     static let sideMenu = UIImage(named: "ic_sideMenu")!
-}
-
-enum Bound {
-    static let screenWidth = UIScreen.main.bounds.width
-    static let screenHeight = UIScreen.main.bounds.height
 }

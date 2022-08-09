@@ -1,13 +1,12 @@
 //
-//  UIColorExtensions.swift
+//  ColorExtension.swift
 //  Walkie-Talkie POC
 //
-//  Created by Macmini2018 on 28/07/2022.
+//  Created by Macmini2018 on 09/08/2022.
 //
 
 import Foundation
 import UIKit
-
 extension UIColor {
     static let greenTY = UIColor(red: 78/255, green: 154/255, blue: 131/255, alpha: 1)
     static let redTY = UIColor(red: 222/255, green: 97/255, blue: 97/255, alpha: 1)

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
+enum AppColor {
+    static let mainColor = UIColor(hexString: "F5A722")
+}

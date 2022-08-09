@@ -19,13 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             let rootVc = Login()
-            let navViewController = UINavigationController(rootViewController: rootVc)
-            let navBarAppearance = UINavigationBarAppearance()
-            
-            UINavigationBar.appearance().isTranslucent = false
-            //UINavigationBar.appearance().barTintColor = .red
-            UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-            
+            let navViewController = BaseNavigationController(rootViewController: rootVc)        
+
             window.rootViewController = navViewController
             self.window = window
             window.makeKeyAndVisible()

@@ -22,8 +22,9 @@
 		17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6D288A46F900410648 /* TextfieldExtension.swift */; };
 		770AAEF428975D2600D53378 /* ListRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770AAEF328975D2600D53378 /* ListRoomView.swift */; };
 		770AAEF628975D3800D53378 /* ListRoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770AAEF528975D3800D53378 /* ListRoomView.xib */; };
+		771FB85428C5B4DD006A2817 /* ListRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FB85328C5B4DD006A2817 /* ListRoomModel.swift */; };
 		77C4ADFD28921F83004AC8BF /* VCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4ADFC28921F83004AC8BF /* VCExtensions.swift */; };
-		77C4AE042892427C004AC8BF /* ListRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE032892427C004AC8BF /* ListRoom.swift */; };
+		77C4AE042892427C004AC8BF /* ListRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE032892427C004AC8BF /* ListRoomViewController.swift */; };
 		77C4AE0628924981004AC8BF /* NavCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE0528924981004AC8BF /* NavCustomButton.swift */; };
 		77C4AE0828924ED9004AC8BF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C4AE0728924ED9004AC8BF /* Color.swift */; };
 		77D453B32892959B0046EA68 /* SideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D453B22892959B0046EA68 /* SideMenu.xib */; };
@@ -43,6 +44,15 @@
 		77D607CE28A1F6350034484E /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D607CD28A1F6350034484E /* UIStoryboardExtension.swift */; };
 		77D607D128A1F8A40034484E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D607D028A1F8A40034484E /* Logger.swift */; };
 		77D607D328A1F8B80034484E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D607D228A1F8B80034484E /* Config.swift */; };
+		77DDA18428BEFED00034F21F /* ListRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18228BEFED00034F21F /* ListRoomCell.swift */; };
+		77DDA18528BEFED00034F21F /* ListRoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DDA18328BEFED00034F21F /* ListRoomCell.xib */; };
+		77DDA18728BF06F70034F21F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18628BF06F70034F21F /* BaseViewController.swift */; };
+		77DDA18A28BF08860034F21F /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18928BF08860034F21F /* SideMenuViewModel.swift */; };
+		77DDA18C28BF08940034F21F /* ListRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */; };
+		77DDA18E28BF0A0E0034F21F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18D28BF0A0E0034F21F /* LoginViewModel.swift */; };
+		C320EBA33F8D3BCD7531E156 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91827FD78A631B1BD937BB71 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework */; };
+		F1729241A6D53D4310ED9359 /* Pods_Walkie_Talkie_POCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3566452D25B4AFE71655DE6 /* Pods_Walkie_Talkie_POCTests.framework */; };
+		F3BD2886665BF54E7F949AFB /* Pods_Walkie_Talkie_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4798C11900083FAE6A048C18 /* Pods_Walkie_Talkie_POC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,10 +90,14 @@
 		17BEDE2928559AAD001AF6BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		17CBCD6A288A3ACB00410648 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		17CBCD6D288A46F900410648 /* TextfieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldExtension.swift; sourceTree = "<group>"; };
+		23089D8B249783E75815B86E /* Pods-Walkie-Talkie POCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POCTests.release.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POCTests/Pods-Walkie-Talkie POCTests.release.xcconfig"; sourceTree = "<group>"; };
+		39F2F6F6CC59A42B99263B92 /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4798C11900083FAE6A048C18 /* Pods_Walkie_Talkie_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_Talkie_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770AAEF328975D2600D53378 /* ListRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomView.swift; sourceTree = "<group>"; };
 		770AAEF528975D3800D53378 /* ListRoomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRoomView.xib; sourceTree = "<group>"; };
+		771FB85328C5B4DD006A2817 /* ListRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomModel.swift; sourceTree = "<group>"; };
 		77C4ADFC28921F83004AC8BF /* VCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtensions.swift; sourceTree = "<group>"; };
-		77C4AE032892427C004AC8BF /* ListRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoom.swift; sourceTree = "<group>"; };
+		77C4AE032892427C004AC8BF /* ListRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomViewController.swift; sourceTree = "<group>"; };
 		77C4AE0528924981004AC8BF /* NavCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavCustomButton.swift; sourceTree = "<group>"; };
 		77C4AE0728924ED9004AC8BF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		77D453B22892959B0046EA68 /* SideMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenu.xib; sourceTree = "<group>"; };
@@ -103,6 +117,18 @@
 		77D607CD28A1F6350034484E /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 		77D607D028A1F8A40034484E /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		77D607D228A1F8B80034484E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		77DDA18228BEFED00034F21F /* ListRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomCell.swift; sourceTree = "<group>"; };
+		77DDA18328BEFED00034F21F /* ListRoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRoomCell.xib; sourceTree = "<group>"; };
+		77DDA18628BF06F70034F21F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		77DDA18928BF08860034F21F /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomViewModel.swift; sourceTree = "<group>"; };
+		77DDA18D28BF0A0E0034F21F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8F4F4B368C09ABFE1A035022 /* Pods-Walkie-Talkie POCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POCTests.debug.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POCTests/Pods-Walkie-Talkie POCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91827FD78A631B1BD937BB71 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA913F065471B00F2A7280C /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3566452D25B4AFE71655DE6 /* Pods_Walkie_Talkie_POCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_Talkie_POCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC738112AE434B6B8A71746 /* Pods-Walkie-Talkie POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC.debug.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC/Pods-Walkie-Talkie POC.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BF4076EBF577B5812A55BE /* Pods-Walkie-Talkie POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC.release.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC/Pods-Walkie-Talkie POC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BD2886665BF54E7F949AFB /* Pods_Walkie_Talkie_POC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1729241A6D53D4310ED9359 /* Pods_Walkie_Talkie_POCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C320EBA33F8D3BCD7531E156 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +166,8 @@
 				17BEDE0B28559A75001AF6BC /* Walkie-Talkie POCTests */,
 				17BEDE1528559A75001AF6BC /* Walkie-Talkie POCUITests */,
 				17BEDDF028559A71001AF6BC /* Products */,
+				5CDE577B15E36C7BDB179A8F /* Pods */,
+				2DDE7A37F201DA6C9D6F271A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,7 +189,7 @@
 				77F87BF128921CA0001F22C9 /* Common */,
 				17CBCD6C288A46D000410648 /* Utils */,
 				17BEDE2528559A7C001AF6BC /* View */,
-				17CBCD69288A3AB700410648 /* Controller */,
+				17CBCD69288A3AB700410648 /* Module */,
 			);
 			path = "Walkie-Talkie POC";
 			sourceTree = "<group>";
@@ -201,27 +232,50 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		17CBCD69288A3AB700410648 /* Controller */ = {
+		17CBCD69288A3AB700410648 /* Module */ = {
 			isa = PBXGroup;
 			children = (
 				77D607B228A1F1F60034484E /* Home */,
 				77D607B128A1F1E60034484E /* Login */,
 			);
-			path = Controller;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		17CBCD6C288A46D000410648 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				77C4AE0528924981004AC8BF /* NavCustomButton.swift */,
-				77C4AE0728924ED9004AC8BF /* Color.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		2DDE7A37F201DA6C9D6F271A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4798C11900083FAE6A048C18 /* Pods_Walkie_Talkie_POC.framework */,
+				91827FD78A631B1BD937BB71 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework */,
+				A3566452D25B4AFE71655DE6 /* Pods_Walkie_Talkie_POCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CDE577B15E36C7BDB179A8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCC738112AE434B6B8A71746 /* Pods-Walkie-Talkie POC.debug.xcconfig */,
+				C4BF4076EBF577B5812A55BE /* Pods-Walkie-Talkie POC.release.xcconfig */,
+				39F2F6F6CC59A42B99263B92 /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig */,
+				9AA913F065471B00F2A7280C /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig */,
+				8F4F4B368C09ABFE1A035022 /* Pods-Walkie-Talkie POCTests.debug.xcconfig */,
+				23089D8B249783E75815B86E /* Pods-Walkie-Talkie POCTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		770AAEF228975C3600D53378 /* ListRoomView */ = {
 			isa = PBXGroup;
 			children = (
+				77DDA17F28BEFE6C0034F21F /* ListRoomCell */,
 				770AAEF328975D2600D53378 /* ListRoomView.swift */,
 				770AAEF528975D3800D53378 /* ListRoomView.xib */,
 			);
@@ -241,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				17CBCD6A288A3ACB00410648 /* Login.swift */,
+				77DDA18D28BF0A0E0034F21F /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -248,9 +303,9 @@
 		77D607B228A1F1F60034484E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				77C4AE032892427C004AC8BF /* ListRoom.swift */,
-				77D453B6289297630046EA68 /* SideMenuController.swift */,
 				77D607B428A1F2150034484E /* ContainerVC.swift */,
+				77DDA17E28BEF7B20034F21F /* SideMenu */,
+				77DDA17D28BEF7AA0034F21F /* ListRoom */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -260,6 +315,7 @@
 			children = (
 				77D607B728A1F3190034484E /* BaseNavigationController.swift */,
 				77D607B928A1F3290034484E /* BaseTabBarController.swift */,
+				77DDA18628BF06F70034F21F /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -271,6 +327,34 @@
 				77D607D228A1F8B80034484E /* Config.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		77DDA17D28BEF7AA0034F21F /* ListRoom */ = {
+			isa = PBXGroup;
+			children = (
+				77C4AE032892427C004AC8BF /* ListRoomViewController.swift */,
+				77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */,
+				771FB85328C5B4DD006A2817 /* ListRoomModel.swift */,
+			);
+			path = ListRoom;
+			sourceTree = "<group>";
+		};
+		77DDA17E28BEF7B20034F21F /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				77D453B6289297630046EA68 /* SideMenuController.swift */,
+				77DDA18928BF08860034F21F /* SideMenuViewModel.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		77DDA17F28BEFE6C0034F21F /* ListRoomCell */ = {
+			isa = PBXGroup;
+			children = (
+				77DDA18228BEFED00034F21F /* ListRoomCell.swift */,
+				77DDA18328BEFED00034F21F /* ListRoomCell.xib */,
+			);
+			path = ListRoomCell;
 			sourceTree = "<group>";
 		};
 		77F87BF128921CA0001F22C9 /* Common */ = {
@@ -304,6 +388,7 @@
 		77F87BF328921CBA001F22C9 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				77C4AE0728924ED9004AC8BF /* Color.swift */,
 				77D607BD28A1F43A0034484E /* Image.swift */,
 				77D607BF28A1F44A0034484E /* Name.swift */,
 				77D607C128A1F4550034484E /* SizeScreen.swift */,
@@ -327,9 +412,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17BEDE1C28559A75001AF6BC /* Build configuration list for PBXNativeTarget "Walkie-Talkie POC" */;
 			buildPhases = (
+				3881CC9E709253D366710BEB /* [CP] Check Pods Manifest.lock */,
 				17BEDDEB28559A71001AF6BC /* Sources */,
 				17BEDDEC28559A71001AF6BC /* Frameworks */,
 				17BEDDED28559A71001AF6BC /* Resources */,
+				49607306EB10EC1AF3CA5007 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,6 +431,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17BEDE1F28559A75001AF6BC /* Build configuration list for PBXNativeTarget "Walkie-Talkie POCTests" */;
 			buildPhases = (
+				BEA9F2F30F1B56C684F3DF8D /* [CP] Check Pods Manifest.lock */,
 				17BEDE0428559A75001AF6BC /* Sources */,
 				17BEDE0528559A75001AF6BC /* Frameworks */,
 				17BEDE0628559A75001AF6BC /* Resources */,
@@ -362,9 +450,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17BEDE2228559A75001AF6BC /* Build configuration list for PBXNativeTarget "Walkie-Talkie POCUITests" */;
 			buildPhases = (
+				7491E846E39CC34751635448 /* [CP] Check Pods Manifest.lock */,
 				17BEDE0E28559A75001AF6BC /* Sources */,
 				17BEDE0F28559A75001AF6BC /* Frameworks */,
 				17BEDE1028559A75001AF6BC /* Resources */,
+				537CDC9CC3C3930E3FEEC491 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -427,6 +517,7 @@
 				770AAEF628975D3800D53378 /* ListRoomView.xib in Resources */,
 				17BEDE0228559A75001AF6BC /* LaunchScreen.storyboard in Resources */,
 				17BEDDFF28559A75001AF6BC /* Assets.xcassets in Resources */,
+				77DDA18528BEFED00034F21F /* ListRoomCell.xib in Resources */,
 				17BEDE2828559A9D001AF6BC /* LoginView.xib in Resources */,
 				77D453B32892959B0046EA68 /* SideMenu.xib in Resources */,
 				17BEDDFA28559A71001AF6BC /* Main.storyboard in Resources */,
@@ -449,6 +540,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3881CC9E709253D366710BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie-Talkie POC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49607306EB10EC1AF3CA5007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC/Pods-Walkie-Talkie POC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC/Pods-Walkie-Talkie POC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC/Pods-Walkie-Talkie POC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		537CDC9CC3C3930E3FEEC491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7491E846E39CC34751635448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA9F2F30F1B56C684F3DF8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Walkie-Talkie POCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17BEDDEB28559A71001AF6BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -460,18 +654,22 @@
 				77D607D128A1F8A40034484E /* Logger.swift in Sources */,
 				77D607CE28A1F6350034484E /* UIStoryboardExtension.swift in Sources */,
 				77D607BA28A1F3290034484E /* BaseTabBarController.swift in Sources */,
+				77DDA18428BEFED00034F21F /* ListRoomCell.swift in Sources */,
 				77D607C428A1F5C50034484E /* CollectionViewExtension.swift in Sources */,
 				77D453B5289295A70046EA68 /* SideMenu.swift in Sources */,
 				17BEDDF328559A71001AF6BC /* AppDelegate.swift in Sources */,
-				77C4AE042892427C004AC8BF /* ListRoom.swift in Sources */,
+				77C4AE042892427C004AC8BF /* ListRoomViewController.swift in Sources */,
 				77C4AE0828924ED9004AC8BF /* Color.swift in Sources */,
+				771FB85428C5B4DD006A2817 /* ListRoomModel.swift in Sources */,
 				77D607BE28A1F43A0034484E /* Image.swift in Sources */,
 				17CBCD6B288A3ACB00410648 /* Login.swift in Sources */,
 				77D607B528A1F2150034484E /* ContainerVC.swift in Sources */,
 				77D607C028A1F44A0034484E /* Name.swift in Sources */,
 				17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */,
+				77DDA18C28BF08940034F21F /* ListRoomViewModel.swift in Sources */,
 				77D607D328A1F8B80034484E /* Config.swift in Sources */,
 				17BEDDF528559A71001AF6BC /* SceneDelegate.swift in Sources */,
+				77DDA18E28BF0A0E0034F21F /* LoginViewModel.swift in Sources */,
 				77C4ADFD28921F83004AC8BF /* VCExtensions.swift in Sources */,
 				77D453B7289297630046EA68 /* SideMenuController.swift in Sources */,
 				77C4AE0628924981004AC8BF /* NavCustomButton.swift in Sources */,
@@ -481,6 +679,8 @@
 				77D607C228A1F4550034484E /* SizeScreen.swift in Sources */,
 				77D607CC28A1F6200034484E /* StringExtension.swift in Sources */,
 				770AAEF428975D2600D53378 /* ListRoomView.swift in Sources */,
+				77DDA18A28BF08860034F21F /* SideMenuViewModel.swift in Sources */,
+				77DDA18728BF06F70034F21F /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +852,7 @@
 		};
 		17BEDE1D28559A75001AF6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC738112AE434B6B8A71746 /* Pods-Walkie-Talkie POC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -680,6 +881,7 @@
 		};
 		17BEDE1E28559A75001AF6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BF4076EBF577B5812A55BE /* Pods-Walkie-Talkie POC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -708,6 +910,7 @@
 		};
 		17BEDE2028559A75001AF6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4F4B368C09ABFE1A035022 /* Pods-Walkie-Talkie POCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -728,6 +931,7 @@
 		};
 		17BEDE2128559A75001AF6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23089D8B249783E75815B86E /* Pods-Walkie-Talkie POCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -748,6 +952,7 @@
 		};
 		17BEDE2328559A75001AF6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F2F6F6CC59A42B99263B92 /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -766,6 +971,7 @@
 		};
 		17BEDE2428559A75001AF6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA913F065471B00F2A7280C /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

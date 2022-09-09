@@ -10,10 +10,10 @@ import UIKit
 class ContainerVC: BaseViewController {
     
     // MARK: - SubView & Properties
-    private let listRoomView = UIStoryboard(name: NameConstant.Storyboard.Main,
+    var listRoomView = UIStoryboard(name: NameConstant.Storyboard.Main,
                                                         bundle: nil).instantiateVC(ListRoomViewController.self)
 
-    private let SideMenuView = UIStoryboard(name: NameConstant.Storyboard.Main,
+    var SideMenuView = UIStoryboard(name: NameConstant.Storyboard.Main,
                                                         bundle: nil).instantiateVC(SideMenuController.self)
     var navigationVC: UINavigationController!
     

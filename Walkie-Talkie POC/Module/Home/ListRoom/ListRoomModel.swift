@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Room {
+struct Room: Codable {
     let id: Int
     let roomName: String
     

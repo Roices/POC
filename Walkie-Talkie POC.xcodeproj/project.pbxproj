@@ -20,6 +20,13 @@
 		17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BEDE2928559AAD001AF6BC /* LoginView.swift */; };
 		17CBCD6B288A3ACB00410648 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6A288A3ACB00410648 /* Login.swift */; };
 		17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CBCD6D288A46F900410648 /* TextfieldExtension.swift */; };
+		770A623C28CAE9FF004AFEC6 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A623B28CAE9FF004AFEC6 /* HttpRouter.swift */; };
+		770A623E28CAEA7E004AFEC6 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A623D28CAEA7E004AFEC6 /* HttpService.swift */; };
+		770A624028CAEB86004AFEC6 /* ListRoomHttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A623F28CAEB86004AFEC6 /* ListRoomHttpRouter.swift */; };
+		770A624228CAEF5F004AFEC6 /* ListRoomService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A624128CAEF5F004AFEC6 /* ListRoomService.swift */; };
+		770A624428CAEFA8004AFEC6 /* ListRoomAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770A624328CAEFA8004AFEC6 /* ListRoomAPI.swift */; };
+		770A624A28CB25C0004AFEC6 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770A624928CB25C0004AFEC6 /* SideMenuViewController.xib */; };
+		770A625028CB26B9004AFEC6 /* ListRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770A624F28CB26B9004AFEC6 /* ListRoomViewController.xib */; };
 		770AAEF428975D2600D53378 /* ListRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770AAEF328975D2600D53378 /* ListRoomView.swift */; };
 		770AAEF628975D3800D53378 /* ListRoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770AAEF528975D3800D53378 /* ListRoomView.xib */; };
 		771FB85428C5B4DD006A2817 /* ListRoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771FB85328C5B4DD006A2817 /* ListRoomModel.swift */; };
@@ -50,6 +57,19 @@
 		77DDA18A28BF08860034F21F /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18928BF08860034F21F /* SideMenuViewModel.swift */; };
 		77DDA18C28BF08940034F21F /* ListRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */; };
 		77DDA18E28BF0A0E0034F21F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDA18D28BF0A0E0034F21F /* LoginViewModel.swift */; };
+		77F2B7DE28C6EA4A00E56A5F /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7DD28C6EA4A00E56A5F /* ApiRequest.swift */; };
+		77F2B7E228C6EB0400E56A5F /* ApiCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7E128C6EB0400E56A5F /* ApiCommand.swift */; };
+		77F2B7E428C6EB5200E56A5F /* ErrorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7E328C6EB5200E56A5F /* ErrorApp.swift */; };
+		77F2B7E728C6EBAF00E56A5F /* ApiResultPaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7E628C6EBAF00E56A5F /* ApiResultPaging.swift */; };
+		77F2B7E928C6EC2100E56A5F /* ApiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7E828C6EC2100E56A5F /* ApiParser.swift */; };
+		77F2B7EC28C6ECA400E56A5F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7EB28C6ECA400E56A5F /* Helper.swift */; };
+		77F2B7EE28C6ECCB00E56A5F /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7ED28C6ECCB00E56A5F /* LocalData.swift */; };
+		77F2B7F028C6ED3500E56A5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7EF28C6ED3500E56A5F /* User.swift */; };
+		77F2B7F228C6ED9F00E56A5F /* AppApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7F128C6ED9F00E56A5F /* AppApi.swift */; };
+		77F2B7F428C6EDF400E56A5F /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7F328C6EDF400E56A5F /* Util.swift */; };
+		77F2B7F628C6F20900E56A5F /* ListRoomHttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7F528C6F20900E56A5F /* ListRoomHttpService.swift */; };
+		77F2B7F828C6F2C200E56A5F /* ApiOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7F728C6F2C200E56A5F /* ApiOperations.swift */; };
+		77F2B7FA28C6FA5F00E56A5F /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B7F928C6FA5F00E56A5F /* SessionExtension.swift */; };
 		C320EBA33F8D3BCD7531E156 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91827FD78A631B1BD937BB71 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework */; };
 		F1729241A6D53D4310ED9359 /* Pods_Walkie_Talkie_POCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3566452D25B4AFE71655DE6 /* Pods_Walkie_Talkie_POCTests.framework */; };
 		F3BD2886665BF54E7F949AFB /* Pods_Walkie_Talkie_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4798C11900083FAE6A048C18 /* Pods_Walkie_Talkie_POC.framework */; };
@@ -93,6 +113,13 @@
 		23089D8B249783E75815B86E /* Pods-Walkie-Talkie POCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POCTests.release.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POCTests/Pods-Walkie-Talkie POCTests.release.xcconfig"; sourceTree = "<group>"; };
 		39F2F6F6CC59A42B99263B92 /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4798C11900083FAE6A048C18 /* Pods_Walkie_Talkie_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_Talkie_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770A623B28CAE9FF004AFEC6 /* HttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRouter.swift; sourceTree = "<group>"; };
+		770A623D28CAEA7E004AFEC6 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		770A623F28CAEB86004AFEC6 /* ListRoomHttpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomHttpRouter.swift; sourceTree = "<group>"; };
+		770A624128CAEF5F004AFEC6 /* ListRoomService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomService.swift; sourceTree = "<group>"; };
+		770A624328CAEFA8004AFEC6 /* ListRoomAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomAPI.swift; sourceTree = "<group>"; };
+		770A624928CB25C0004AFEC6 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		770A624F28CB26B9004AFEC6 /* ListRoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRoomViewController.xib; sourceTree = "<group>"; };
 		770AAEF328975D2600D53378 /* ListRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomView.swift; sourceTree = "<group>"; };
 		770AAEF528975D3800D53378 /* ListRoomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRoomView.xib; sourceTree = "<group>"; };
 		771FB85328C5B4DD006A2817 /* ListRoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomModel.swift; sourceTree = "<group>"; };
@@ -123,6 +150,19 @@
 		77DDA18928BF08860034F21F /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomViewModel.swift; sourceTree = "<group>"; };
 		77DDA18D28BF0A0E0034F21F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		77F2B7DD28C6EA4A00E56A5F /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		77F2B7E128C6EB0400E56A5F /* ApiCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCommand.swift; sourceTree = "<group>"; };
+		77F2B7E328C6EB5200E56A5F /* ErrorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorApp.swift; sourceTree = "<group>"; };
+		77F2B7E628C6EBAF00E56A5F /* ApiResultPaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResultPaging.swift; sourceTree = "<group>"; };
+		77F2B7E828C6EC2100E56A5F /* ApiParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiParser.swift; sourceTree = "<group>"; };
+		77F2B7EB28C6ECA400E56A5F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		77F2B7ED28C6ECCB00E56A5F /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
+		77F2B7EF28C6ED3500E56A5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		77F2B7F128C6ED9F00E56A5F /* AppApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApi.swift; sourceTree = "<group>"; };
+		77F2B7F328C6EDF400E56A5F /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		77F2B7F528C6F20900E56A5F /* ListRoomHttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRoomHttpService.swift; sourceTree = "<group>"; };
+		77F2B7F728C6F2C200E56A5F /* ApiOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiOperations.swift; sourceTree = "<group>"; };
+		77F2B7F928C6FA5F00E56A5F /* SessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
 		8F4F4B368C09ABFE1A035022 /* Pods-Walkie-Talkie POCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POCTests.debug.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POCTests/Pods-Walkie-Talkie POCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91827FD78A631B1BD937BB71 /* Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walkie_Talkie_POC_Walkie_Talkie_POCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA913F065471B00F2A7280C /* Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig"; path = "Target Support Files/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests/Pods-Walkie-Talkie POC-Walkie-Talkie POCUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,8 +225,10 @@
 			isa = PBXGroup;
 			children = (
 				17BEDE0328559A75001AF6BC /* Info.plist */,
+				770A623928CAE9DB004AFEC6 /* Service */,
 				77F87BF428921D05001F22C9 /* Resources */,
 				77F87BF128921CA0001F22C9 /* Common */,
+				770A624628CAF027004AFEC6 /* Model */,
 				17CBCD6C288A46D000410648 /* Utils */,
 				17BEDE2528559A7C001AF6BC /* View */,
 				17CBCD69288A3AB700410648 /* Module */,
@@ -237,6 +279,7 @@
 			children = (
 				77D607B228A1F1F60034484E /* Home */,
 				77D607B128A1F1E60034484E /* Login */,
+				77F2B7EF28C6ED3500E56A5F /* User.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -245,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				77C4AE0528924981004AC8BF /* NavCustomButton.swift */,
+				77F2B7F328C6EDF400E56A5F /* Util.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -270,6 +314,42 @@
 				23089D8B249783E75815B86E /* Pods-Walkie-Talkie POCTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		770A623928CAE9DB004AFEC6 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				770A623A28CAE9EC004AFEC6 /* Http */,
+				77F2B7DC28C6E94900E56A5F /* Apis */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		770A623A28CAE9EC004AFEC6 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				770A623B28CAE9FF004AFEC6 /* HttpRouter.swift */,
+				770A623D28CAEA7E004AFEC6 /* HttpService.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		770A624528CAEFC1004AFEC6 /* ListRoom */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7F528C6F20900E56A5F /* ListRoomHttpService.swift */,
+				770A623F28CAEB86004AFEC6 /* ListRoomHttpRouter.swift */,
+				770A624128CAEF5F004AFEC6 /* ListRoomService.swift */,
+				770A624328CAEFA8004AFEC6 /* ListRoomAPI.swift */,
+			);
+			path = ListRoom;
+			sourceTree = "<group>";
+		};
+		770A624628CAF027004AFEC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		770AAEF228975C3600D53378 /* ListRoomView */ = {
@@ -335,6 +415,7 @@
 				77C4AE032892427C004AC8BF /* ListRoomViewController.swift */,
 				77DDA18B28BF08940034F21F /* ListRoomViewModel.swift */,
 				771FB85328C5B4DD006A2817 /* ListRoomModel.swift */,
+				770A624F28CB26B9004AFEC6 /* ListRoomViewController.xib */,
 			);
 			path = ListRoom;
 			sourceTree = "<group>";
@@ -344,6 +425,7 @@
 			children = (
 				77D453B6289297630046EA68 /* SideMenuController.swift */,
 				77DDA18928BF08860034F21F /* SideMenuViewModel.swift */,
+				770A624928CB25C0004AFEC6 /* SideMenuViewController.xib */,
 			);
 			path = SideMenu;
 			sourceTree = "<group>";
@@ -357,9 +439,56 @@
 			path = ListRoomCell;
 			sourceTree = "<group>";
 		};
+		77F2B7DC28C6E94900E56A5F /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7DD28C6EA4A00E56A5F /* ApiRequest.swift */,
+				770A624528CAEFC1004AFEC6 /* ListRoom */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		77F2B7DF28C6EAEB00E56A5F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7E028C6EAF300E56A5F /* Request */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		77F2B7E028C6EAF300E56A5F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7E128C6EB0400E56A5F /* ApiCommand.swift */,
+				77F2B7E828C6EC2100E56A5F /* ApiParser.swift */,
+				77F2B7E528C6EB8F00E56A5F /* ResponseModel */,
+				77F2B7F728C6F2C200E56A5F /* ApiOperations.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		77F2B7E528C6EB8F00E56A5F /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7E628C6EBAF00E56A5F /* ApiResultPaging.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		77F2B7EA28C6EC9800E56A5F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				77F2B7EB28C6ECA400E56A5F /* Helper.swift */,
+				77F2B7ED28C6ECCB00E56A5F /* LocalData.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		77F87BF128921CA0001F22C9 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				77F2B7EA28C6EC9800E56A5F /* Helper */,
+				77F2B7DF28C6EAEB00E56A5F /* Lib */,
 				77D607CF28A1F8940034484E /* Service */,
 				17BEDDF228559A71001AF6BC /* AppDelegate.swift */,
 				17BEDDF428559A71001AF6BC /* SceneDelegate.swift */,
@@ -381,6 +510,7 @@
 				77D607C928A1F60F0034484E /* UIViewExtension.swift */,
 				77D607CB28A1F6200034484E /* StringExtension.swift */,
 				77D607CD28A1F6350034484E /* UIStoryboardExtension.swift */,
+				77F2B7F928C6FA5F00E56A5F /* SessionExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -392,6 +522,8 @@
 				77D607BD28A1F43A0034484E /* Image.swift */,
 				77D607BF28A1F44A0034484E /* Name.swift */,
 				77D607C128A1F4550034484E /* SizeScreen.swift */,
+				77F2B7E328C6EB5200E56A5F /* ErrorApp.swift */,
+				77F2B7F128C6ED9F00E56A5F /* AppApi.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -514,10 +646,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770A625028CB26B9004AFEC6 /* ListRoomViewController.xib in Resources */,
 				770AAEF628975D3800D53378 /* ListRoomView.xib in Resources */,
 				17BEDE0228559A75001AF6BC /* LaunchScreen.storyboard in Resources */,
 				17BEDDFF28559A75001AF6BC /* Assets.xcassets in Resources */,
 				77DDA18528BEFED00034F21F /* ListRoomCell.xib in Resources */,
+				770A624A28CB25C0004AFEC6 /* SideMenuViewController.xib in Resources */,
 				17BEDE2828559A9D001AF6BC /* LoginView.xib in Resources */,
 				77D453B32892959B0046EA68 /* SideMenu.xib in Resources */,
 				17BEDDFA28559A71001AF6BC /* Main.storyboard in Resources */,
@@ -650,8 +784,11 @@
 			files = (
 				17BEDDFD28559A71001AF6BC /* Walkie_Talkie_POC.xcdatamodeld in Sources */,
 				77D607C628A1F5D60034484E /* ColorExtension.swift in Sources */,
+				770A624228CAEF5F004AFEC6 /* ListRoomService.swift in Sources */,
 				77D607C828A1F5F70034484E /* TableViewExtension.swift in Sources */,
+				77F2B7F628C6F20900E56A5F /* ListRoomHttpService.swift in Sources */,
 				77D607D128A1F8A40034484E /* Logger.swift in Sources */,
+				77F2B7E428C6EB5200E56A5F /* ErrorApp.swift in Sources */,
 				77D607CE28A1F6350034484E /* UIStoryboardExtension.swift in Sources */,
 				77D607BA28A1F3290034484E /* BaseTabBarController.swift in Sources */,
 				77DDA18428BEFED00034F21F /* ListRoomCell.swift in Sources */,
@@ -660,20 +797,34 @@
 				17BEDDF328559A71001AF6BC /* AppDelegate.swift in Sources */,
 				77C4AE042892427C004AC8BF /* ListRoomViewController.swift in Sources */,
 				77C4AE0828924ED9004AC8BF /* Color.swift in Sources */,
+				770A624028CAEB86004AFEC6 /* ListRoomHttpRouter.swift in Sources */,
 				771FB85428C5B4DD006A2817 /* ListRoomModel.swift in Sources */,
 				77D607BE28A1F43A0034484E /* Image.swift in Sources */,
+				77F2B7F828C6F2C200E56A5F /* ApiOperations.swift in Sources */,
 				17CBCD6B288A3ACB00410648 /* Login.swift in Sources */,
 				77D607B528A1F2150034484E /* ContainerVC.swift in Sources */,
+				77F2B7DE28C6EA4A00E56A5F /* ApiRequest.swift in Sources */,
+				77F2B7F028C6ED3500E56A5F /* User.swift in Sources */,
 				77D607C028A1F44A0034484E /* Name.swift in Sources */,
+				77F2B7E928C6EC2100E56A5F /* ApiParser.swift in Sources */,
 				17BEDE2A28559AAD001AF6BC /* LoginView.swift in Sources */,
 				77DDA18C28BF08940034F21F /* ListRoomViewModel.swift in Sources */,
 				77D607D328A1F8B80034484E /* Config.swift in Sources */,
+				77F2B7EC28C6ECA400E56A5F /* Helper.swift in Sources */,
 				17BEDDF528559A71001AF6BC /* SceneDelegate.swift in Sources */,
+				77F2B7F228C6ED9F00E56A5F /* AppApi.swift in Sources */,
+				770A623E28CAEA7E004AFEC6 /* HttpService.swift in Sources */,
 				77DDA18E28BF0A0E0034F21F /* LoginViewModel.swift in Sources */,
 				77C4ADFD28921F83004AC8BF /* VCExtensions.swift in Sources */,
+				77F2B7E228C6EB0400E56A5F /* ApiCommand.swift in Sources */,
+				77F2B7E728C6EBAF00E56A5F /* ApiResultPaging.swift in Sources */,
 				77D453B7289297630046EA68 /* SideMenuController.swift in Sources */,
+				77F2B7F428C6EDF400E56A5F /* Util.swift in Sources */,
 				77C4AE0628924981004AC8BF /* NavCustomButton.swift in Sources */,
+				77F2B7EE28C6ECCB00E56A5F /* LocalData.swift in Sources */,
 				77D607CA28A1F60F0034484E /* UIViewExtension.swift in Sources */,
+				77F2B7FA28C6FA5F00E56A5F /* SessionExtension.swift in Sources */,
+				770A623C28CAE9FF004AFEC6 /* HttpRouter.swift in Sources */,
 				77D607B828A1F3190034484E /* BaseNavigationController.swift in Sources */,
 				17CBCD6E288A46F900410648 /* TextfieldExtension.swift in Sources */,
 				77D607C228A1F4550034484E /* SizeScreen.swift in Sources */,
@@ -681,6 +832,7 @@
 				770AAEF428975D2600D53378 /* ListRoomView.swift in Sources */,
 				77DDA18A28BF08860034F21F /* SideMenuViewModel.swift in Sources */,
 				77DDA18728BF06F70034F21F /* BaseViewController.swift in Sources */,
+				770A624428CAEFA8004AFEC6 /* ListRoomAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

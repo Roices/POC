@@ -7,11 +7,3 @@
 
 import UIKit
 
-class ListRoomView: UIView {
-
-    // MARK: init
-    override class func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-}

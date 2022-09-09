@@ -9,7 +9,10 @@ target 'Walkie-Talkie POC' do
   pod 'IQKeyboardManagerSwift', '6.3.0'
   pod 'NotificationBannerSwift'
   pod 'NVActivityIndicatorView'
-  pod 'SwiftMessages' # A powerful popup
+  pod 'SwiftMessages'
+  pod 'Action'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'KeychainSwift'
   # Pods for Walkie-Talkie POC
 
   target 'Walkie-Talkie POCTests' do

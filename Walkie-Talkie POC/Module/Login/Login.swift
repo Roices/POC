@@ -15,9 +15,6 @@ class Login: UIViewController {
     
     private let homeVC = UIStoryboard(name: NameConstant.Storyboard.Main,
                                          bundle: nil).instantiateVC(ContainerVC.self)
-    
-    private let listRoom = UIStoryboard(name: NameConstant.Storyboard.Main,
-                                         bundle: nil).instantiateVC(SideMenuController.self)
 
     // MARK: - Life Cycles
     override func viewDidLoad() {
@@ -54,7 +51,7 @@ extension Login: LoginViewDelegate {
     
     // login Action
     func login(username: String, password: String) {
-        print("Login")
+        ListRoomViewController.make(with: ListRoomViewModel())
         self.navigationController?.pushViewController(homeVC, animated: true)
     }
 }

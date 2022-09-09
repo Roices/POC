@@ -1,5 +1,10 @@
 PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.3.0)
+  - KeychainSwift (20.0.0)
   - MarqueeLabel (4.0.5)
   - NotificationBannerSwift (3.1.0):
     - MarqueeLabel (~> 4.0.5)
@@ -19,7 +24,10 @@ PODS:
   - SwiftMessages/App (9.0.6)
 
 DEPENDENCIES:
+  - Action
+  - Alamofire (~> 4.9.1)
   - IQKeyboardManagerSwift (= 6.3.0)
+  - KeychainSwift
   - NotificationBannerSwift
   - NVActivityIndicatorView
   - RxCocoa (= 6.5.0)
@@ -28,7 +36,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Action
+    - Alamofire
     - IQKeyboardManagerSwift
+    - KeychainSwift
     - MarqueeLabel
     - NotificationBannerSwift
     - NVActivityIndicatorView
@@ -39,7 +50,10 @@ SPEC REPOS:
     - SwiftMessages
 
 SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
   MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
   NotificationBannerSwift: 49912a48b37e2f55d1cef4e8a38f15394f66a70a
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
@@ -49,6 +63,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
 
-PODFILE CHECKSUM: 51046019af25d341786d2de2723574b81173ec0d
+PODFILE CHECKSUM: bca741612e6241b9f5c8be25d200ddfad31a4b79
 
 COCOAPODS: 1.11.2

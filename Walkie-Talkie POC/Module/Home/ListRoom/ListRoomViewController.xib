@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListRoomViewController" customModule="Walkie_Talkie_POC" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonAddRoom" destination="cpf-xS-JwW" id="RfU-ly-0Se"/>
+                <outlet property="listRoomTable" destination="Ht8-KX-cdj" id="hYX-Su-VOh"/>
+                <outlet property="view" destination="wKc-cv-8iv" id="UjH-2k-VFN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ListRoomView" id="wKc-cv-8iv" customClass="ListRoomView" customModule="Walkie_Talkie_POC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ht8-KX-cdj">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="sectionIndexBackgroundColor" red="0.17827442290000001" green="0.17702049019999999" blue="0.23995739220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpf-xS-JwW">
+                    <rect key="frame" x="318" y="796" width="67" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8zh-2y-bS4"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ht8-KX-cdj" secondAttribute="bottom" id="1vb-S3-9CM"/>
+                <constraint firstItem="Ht8-KX-cdj" firstAttribute="top" secondItem="wKc-cv-8iv" secondAttribute="top" id="Atx-uA-PlM"/>
+                <constraint firstItem="8zh-2y-bS4" firstAttribute="trailing" secondItem="cpf-xS-JwW" secondAttribute="trailing" constant="29" id="SzK-3I-1qM"/>
+                <constraint firstItem="8zh-2y-bS4" firstAttribute="bottom" secondItem="cpf-xS-JwW" secondAttribute="bottom" constant="35" id="V8e-tw-Vli"/>
+                <constraint firstItem="Ht8-KX-cdj" firstAttribute="trailing" secondItem="8zh-2y-bS4" secondAttribute="trailing" id="ZB2-mc-Rl6"/>
+                <constraint firstItem="Ht8-KX-cdj" firstAttribute="leading" secondItem="8zh-2y-bS4" secondAttribute="leading" id="xjl-nt-3Sj"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="102.45535714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

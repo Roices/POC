@@ -6,16 +6,28 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 protocol ListRoomDelegate: NSObject {
     func sideMenuTapped()
 }
 
 final class ListRoomViewController: UIViewController {
+    
+    static func make(with viewModel: ListRoomViewModel) -> ListRoomViewController {
+        let view = ListRoomViewController(nibName: "ListRoomViewController", bundle: nil)
+        view.viewModel = viewModel
+        return view
+    }
+
     // MARK: - Properties
-    private let listRoom = UINib(nibName: "ListRoomView", bundle: nil)
-        .instantiate(withOwner: Login.self, options: nil)[0] as! ListRoomView
+    @IBOutlet weak var listRoomTable: UITableView!
+    @IBOutlet weak var buttonAddRoom: UIButton!
     weak var delegate: ListRoomDelegate?
+    
+    var viewModel: ListRoomModelType!
+    private let disposeBag = DisposeBag()
     
     var gestureEnable: Bool = true
     // MARK: - Life cycles
@@ -24,16 +36,23 @@ final class ListRoomViewController: UIViewController {
         setUpView()
         setUpNavBar()
         
+        viewModel.outputs.listRoomData
+            .observe(on: MainScheduler.instance)
+            .bind(to: listRoomTable.rx.items) { tableView, row, room in
+                let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "subtitle")
+                cell.textLabel?.text = "\(room.id)"
+                cell.detailTextLabel?.textColor = UIColor.lightGray
+                cell.detailTextLabel?.text = "\(room.roomName)"
+                return cell
+            }
+            .disposed(by: disposeBag)
+
         // Do any additional setup after loading the view.
     }
     
     // MARK: - Setup View
     private func setUpView() {
-        listRoom.frame = CGRect(x: 0,
-                                y: 0,
-                                width: Bound.screenWidth,
-                                height: Bound.screenHeight)
-        view.addSubviews(listRoom)
+
     }
     
     // MARK: - Setup for Controller
@@ -56,13 +75,8 @@ final class ListRoomViewController: UIViewController {
 // MARK: - Action
 extension ListRoomViewController {
     @objc func didSideMenuTapped(_ sender: UIButton) {
-        print("tapped")
-        self.delegate?.sideMenuTapped()
     }
 }
 
 
-// MARK: - BindData
-extension ListRoomViewController {
-    
-}
+extension ListRoomViewController: StoryboardInstantiable {}

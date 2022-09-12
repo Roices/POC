@@ -1,68 +1,105 @@
 PODS:
-  - Action (5.0.0):
-    - RxCocoa (~> 6.0)
-    - RxSwift (~> 6.0)
-  - Alamofire (4.9.1)
-  - IQKeyboardManagerSwift (6.3.0)
-  - KeychainSwift (20.0.0)
-  - MarqueeLabel (4.0.5)
-  - NotificationBannerSwift (3.1.0):
-    - MarqueeLabel (~> 4.0.5)
-    - SnapKit (~> 5.0.1)
-  - NVActivityIndicatorView (5.1.1):
-    - NVActivityIndicatorView/Base (= 5.1.1)
-  - NVActivityIndicatorView/Base (5.1.1)
-  - RxCocoa (6.5.0):
-    - RxRelay (= 6.5.0)
-    - RxSwift (= 6.5.0)
-  - RxRelay (6.5.0):
-    - RxSwift (= 6.5.0)
-  - RxSwift (6.5.0)
-  - SnapKit (5.0.1)
-  - SwiftMessages (9.0.6):
-    - SwiftMessages/App (= 9.0.6)
-  - SwiftMessages/App (9.0.6)
+  - Alamofire (5.6.2)
+  - Dto (0.2.0):
+    - ValidatedPropertyKit (~> 0.0.4)
+  - ESPullToRefresh (2.9.3)
+  - MagicalRecord (2.3.0)
+  - MBProgressHUD (1.2.0)
+  - MGAPIService (3.0.0):
+    - ObjectMapper (~> 4.2)
+    - RxAlamofire (~> 5.6)
+    - RxSwift (~> 5.1)
+  - MGArchitecture (2.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - MGLoadMore (3.0.2):
+    - ESPullToRefresh (~> 2.9)
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - ObjectMapper (4.2.0)
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - RxAlamofire (5.7.1):
+    - RxAlamofire/Core (= 5.7.1)
+  - RxAlamofire/Core (5.7.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.3):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.3)
+  - RxTest (5.1.3):
+    - RxSwift (~> 5)
+  - RxViewController (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - Then (2.7.0)
+  - ValidatedPropertyKit (0.0.4)
 
 DEPENDENCIES:
-  - Action
-  - Alamofire (~> 4.9.1)
-  - IQKeyboardManagerSwift (= 6.3.0)
-  - KeychainSwift
-  - NotificationBannerSwift
-  - NVActivityIndicatorView
-  - RxCocoa (= 6.5.0)
-  - RxSwift (= 6.5.0)
-  - SwiftMessages
+  - Dto
+  - MagicalRecord (= 2.3.0)
+  - MBProgressHUD (~> 1.2)
+  - MGAPIService (~> 3.0.0)
+  - MGArchitecture (~> 2.0.2)
+  - MGLoadMore (~> 3.0.2)
+  - Reusable (~> 4.1)
+  - RxTest (~> 5.1)
+  - RxViewController
+  - SDWebImage (~> 5.8.3)
+  - Then (~> 2.7)
 
 SPEC REPOS:
   trunk:
-    - Action
     - Alamofire
-    - IQKeyboardManagerSwift
-    - KeychainSwift
-    - MarqueeLabel
-    - NotificationBannerSwift
-    - NVActivityIndicatorView
+    - Dto
+    - ESPullToRefresh
+    - MagicalRecord
+    - MBProgressHUD
+    - MGAPIService
+    - MGArchitecture
+    - MGLoadMore
+    - ObjectMapper
+    - Reusable
+    - RxAlamofire
     - RxCocoa
     - RxRelay
     - RxSwift
-    - SnapKit
-    - SwiftMessages
+    - RxTest
+    - RxViewController
+    - SDWebImage
+    - Then
+    - ValidatedPropertyKit
 
 SPEC CHECKSUMS:
-  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
-  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
-  MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
-  NotificationBannerSwift: 49912a48b37e2f55d1cef4e8a38f15394f66a70a
-  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
-  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
-  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
-  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
-  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Dto: 0346adb2a98017204d384e981352c7f864296a1f
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MGAPIService: 83684387a742af98b944f5badfa566cc2e146318
+  MGArchitecture: 122eacece9de8cbb3576af1329aa7c76118e47b7
+  MGLoadMore: c43a39da03c2ac7697f6c3fa1812681f7f751f25
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  RxAlamofire: 8e144c62dcc01d68dcb366bfc542eb6dd46bab78
+  RxCocoa: e2ed092d5432e4296aa818021d27de4090ac0354
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  RxTest: 937ba521d3f6dca7db49f76cd5d372cfce6091cb
+  RxViewController: 7330a46e5c31cd680db169da4c9fc8676e975a81
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  ValidatedPropertyKit: 599b32854be66b3eea55c0ad7aa22c52cba4b997
 
-PODFILE CHECKSUM: bca741612e6241b9f5c8be25d200ddfad31a4b79
+PODFILE CHECKSUM: d65f0a0b4614911973d27b1b23bcf3dca272186b
 
 COCOAPODS: 1.11.2
